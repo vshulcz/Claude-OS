@@ -579,6 +579,19 @@ npx -y @modelcontextprotocol/server-memory
 
 ---
 
+#### deja-vu MCP
+**Category:** Cross-Agent Session Memory · **Priority:** ⭐ CORE  
+**GitHub:** [vshulcz/deja-vu](https://github.com/vshulcz/deja-vu)
+
+Indexes local session transcripts from Claude Code, Codex, Cursor, and 46 other coding agents (49 total) into a local BM25F index so Claude can recall past fixes, file edits, and pre-compaction context with zero LLM calls.
+
+**Install:**
+```bash
+npx -y @vshulcz/deja-vu mcp
+```
+
+---
+
 #### 2️⃣ mem0 MCP (Self-Hosted)
 **Category:** Vector Memory · **Priority:** ⭐ CORE  
 **GitHub:** [elvismdev/mem0-mcp-selfhosted](https://github.com/elvismdev/mem0-mcp-selfhosted)
